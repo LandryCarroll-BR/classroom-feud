@@ -1,0 +1,125 @@
+.wrapper {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 2px 0;
+  }
+  
+  .column {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+  }
+
+.container1 {
+    display: flex;
+}
+
+.survey-form {
+    background: rgb(222,216,233);
+    background: linear-gradient(90deg, rgba(222,216,233,1) 0%, rgba(216,234,245,1) 100%);
+    border-radius: 17px;
+    padding: 40px;
+}
+
+.survey-form input {
+    border: none;
+    border-radius: 5px;
+    padding: 25px;
+    margin: 5px;
+    display: inline-block;
+}
+
+.question-row, .answer-row {
+    padding-bottom: 30px;
+}
+
+.last {
+    padding-bottom: 1.6em !important;
+}
+
+.submit-row {
+    justify-content: center;
+}
+
+.question {
+    width: 100%;
+}
+
+.answer {
+    width: 85%;
+}
+
+.points {
+    width: 15%;
+}
+
+.submit {
+    width: 300px !important;
+    font-size: 30px !important;
+}
+
+@media only screen 
+and (min-device-width : 375px) 
+and (max-device-width : 812px) 
+and (-webkit-device-pixel-ratio : 3)
+and (orientation : portrait) {
+
+    .wrapper {
+        width: 78%;
+    }
+    
+    .row {
+        padding: 1px 0;
+      }
+    
+    .survey-form {
+        padding: 20px;
+    }
+    
+    .survey-form input {
+        padding: 6px 10px 6px 10px;
+        margin: 4px;
+    }
+
+    input[type=number]{ 
+        text-align: center; 
+    }
+    
+    .question-row, .answer-row {
+        padding-bottom: 10px;
+    }
+    
+    .last {
+        padding-bottom: 1.6em !important;
+    }
+    
+    .submit-row {
+        justify-content: center;
+    }
+    
+    .question {
+        width: 100%;
+    }
+    
+    .answer {
+        min-width: 40px;
+        max-width: 50px;
+    }
+    
+    .points {
+        min-width: 10px;
+        max-width: 20px;
+    }
+    
+    .submit {
+        font-size: 18px !important;
+    }
+}
