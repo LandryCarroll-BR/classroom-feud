@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/classroom-feud/static/css/main.faad520a.chunk.css",
+    "main.js": "/classroom-feud/static/js/main.9d0a0bf8.chunk.js",
+    "main.js.map": "/classroom-feud/static/js/main.9d0a0bf8.chunk.js.map",
+    "runtime-main.js": "/classroom-feud/static/js/runtime-main.1f1e6d57.js",
+    "runtime-main.js.map": "/classroom-feud/static/js/runtime-main.1f1e6d57.js.map",
+    "static/js/2.57a75e90.chunk.js": "/classroom-feud/static/js/2.57a75e90.chunk.js",
+    "static/js/2.57a75e90.chunk.js.map": "/classroom-feud/static/js/2.57a75e90.chunk.js.map",
+    "index.html": "/classroom-feud/index.html",
+    "static/css/main.faad520a.chunk.css.map": "/classroom-feud/static/css/main.faad520a.chunk.css.map",
+    "static/js/2.57a75e90.chunk.js.LICENSE.txt": "/classroom-feud/static/js/2.57a75e90.chunk.js.LICENSE.txt",
+    "static/media/classroom-feud-logo.48f02077.svg": "/classroom-feud/static/media/classroom-feud-logo.48f02077.svg",
+    "static/media/curve.b1629326.svg": "/classroom-feud/static/media/curve.b1629326.svg",
+    "static/media/illustration-2.07f94c97.svg": "/classroom-feud/static/media/illustration-2.07f94c97.svg",
+    "static/media/one-x.fb8204d3.svg": "/classroom-feud/static/media/one-x.fb8204d3.svg",
+    "static/media/three-x.8bd322b4.svg": "/classroom-feud/static/media/three-x.8bd322b4.svg",
+    "static/media/two-x.efb36ef2.svg": "/classroom-feud/static/media/two-x.efb36ef2.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1f1e6d57.js",
+    "static/js/2.57a75e90.chunk.js",
+    "static/css/main.faad520a.chunk.css",
+    "static/js/main.9d0a0bf8.chunk.js"
+  ]
+}
