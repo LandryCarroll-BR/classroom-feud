@@ -1,0 +1,132 @@
+html {
+  font-size: 12px;
+}
+
+h1, h2, p, button, input, label{
+  font-family: 'Lato', sans-serif;
+}
+
+h1 {
+  font-weight: 900;
+  font-size: 3.6rem;
+  line-height: 1.3;
+  text-align: center;
+}
+
+h2 {
+  font-weight: 500;
+  font-size: 2.2rem;
+  color: gray;
+  line-height: 1.6;
+  text-align: center;
+}
+
+p {
+  font-size: 1rem;
+}
+
+button {
+  font-size: 1.7rem;
+  font-weight: 700;
+}
+
+input {
+  font-size: 2rem;
+}
+
+label p {
+  font-size: 1.5rem;
+  padding: .3em .3em;
+  color: rgba(0, 0, 0, .6);
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+}
+
+.section {
+  width: 100%;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.curve {
+  margin-top: 0px;
+  width: 100% !important;
+  padding-bottom: 80px;
+}
+
+.text {
+  max-width: 50%;
+  margin: 0 auto;
+  padding: 100px;
+}
+
+.text h2 {
+  line-height: 1.7;
+}
+
+.add-game-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  outline: none;
+  background-color: white;
+  color: rgba(128,0,255,1);
+  padding: 30px 0;
+  font-size: 21px;
+  font-weight: 600;
+  -webkit-box-shadow: 0px -3px 13px 0px rgba(97,97,97,0.2);
+  -moz-box-shadow: 0px -3px 13px 0px rgba(97,97,97,0.2);
+  box-shadow: 0px -3px 13px 0px rgba(97,97,97,0.2);
+}
+
+.add-game-button:hover {
+  cursor: pointer;
+  border-top: none;
+  color: white;
+  background: rgb(128,0,255);
+  background: linear-gradient(90deg, rgba(128,0,255,1) 0%, rgba(255,0,128,1) 100%);
+}
+
+@media only screen 
+and (min-device-width : 375px) 
+and (max-device-width : 812px) 
+and (-webkit-device-pixel-ratio : 3)
+and (orientation : portrait) {
+  h1 {
+    font-size: 26px;
+  }
+
+  h2 {
+    font-size: 18px;
+  }
+  
+  input{
+    font-size: 18px;
+  }
+
+  label p {
+    font-size: 15px;
+    padding: .2em .2em;
+    color: rgba(0, 0, 0, .6);
+  }
+  .curve {
+    padding-bottom: 0px;
+  }
+
+  .text {
+    max-width: 81%;
+    padding: 60px 0 10px 0;
+    line-height: 2;
+  }
+
+  .add-game-button:hover {
+    color: rgb(128,0,255);
+    background: white;
+  }
+}
